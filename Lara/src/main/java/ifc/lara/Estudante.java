@@ -4,6 +4,8 @@
 
 package ifc.lara;
 
+import java.util.Date;
+
 /**
  *
  * @author aluno
@@ -47,7 +49,23 @@ public class Estudante {
         public void setcpf (String _cpf){
             cpf = _cpf;
         }
-        
-        
+        public char getgenero(){
+            return genero;
+        }
+        public void setgenero (char _genero){
+            genero = _genero;
+        }
+        public String getmatricula (){
+            return matricula;
+        }
+        public void setmatricula (String _matricula){
+            matricula = _matricula;
+        }
+        public String getemail (){
+            return email;
+        }
+        public void setemail (String _email){
+            email = _email;
+        }
     }
 
