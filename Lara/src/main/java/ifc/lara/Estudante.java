@@ -27,7 +27,7 @@ public class Estudante {
         
         
         public Estudante(){
-            nome = "Noboy";
+            nomeCompleto = "Noboy";
         }
         
         public int obterIdade(Date hoje){
